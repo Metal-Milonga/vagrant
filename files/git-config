@@ -1,0 +1,7 @@
+[user]
+	name = David Holton
+	email = it.arcanum@gmail.com
+[core]
+	editor = gvim
+[alias]
+	hist = log --all --graph --decorate --oneline
