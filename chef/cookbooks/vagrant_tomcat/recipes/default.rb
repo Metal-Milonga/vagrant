@@ -12,7 +12,7 @@ template "/etc/init.d/tomcat7" do
 	notifies :restart, "service[tomcat7]"
 end
 
-template "#{node['vagrant_tomcat']['tomcat_home']}/conf/tomact-users.xml"
+template "#{node['vagrant_tomcat']['tomcat_home']}/conf/tomcat-users.xml"
 
 service "tomcat7" do
 	service_name "tomcat7"
