@@ -1,6 +1,6 @@
 include_recipe "tomcat_latest"
 
-file "/etc/rc.d/tomcat" do
+file "/etc/rc.d/tomcat7" do
 	action :delete
 end
 
